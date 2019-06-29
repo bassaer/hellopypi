@@ -22,3 +22,5 @@ CLI
 .. code-block:: text
 ❯ hellopypi -n hoge
 Hello, hoge!
+
+
