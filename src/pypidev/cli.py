@@ -1,6 +1,7 @@
 import argparse
 from .core import Hello
 
+
 def read_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-n', help='target name.', required=True)
