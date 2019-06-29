@@ -9,7 +9,7 @@ install
 -------
 
 .. code-block:: text
-❯ pip install hellopypi
+    ❯ pip install hellopypi
 
 
 -------
@@ -17,10 +17,10 @@ example
 -------
 
 .. code-block:: python
->>> from hellopypi import Hello
->>> hello = Hello("hoge")
->>> hello.get()
-'Hello, hoge!'
+    >>> from hellopypi import Hello
+    >>> hello = Hello("hoge")
+    >>> hello.get()
+    'Hello, hoge!'
 
 
 ---
@@ -28,5 +28,5 @@ cli
 ---
 
 .. code-block:: text
-❯ hellopypi -n hoge
-Hello, hoge!
+    ❯ hellopypi -n hoge
+    Hello, hoge!
