@@ -1,4 +1,9 @@
-dist: xenial   # required for Python >= 3.7
+dist: xenial
 language: python
 python:
-  - "3.7"
+- '3.7'
+deploy:
+  provider: pypi
+  user: bassaer
+  password:
+    secure: UbYeebV1Tl6Ta4z40Ma4Z9CiyI6uEZvBH7K8c2wRTqtMFxZ2g9cQ69ZKlSKQT/56EhutI8Da8BMi+wgHaazTV4aSHR6WCBdShubZDQJfKnZxsjjvXPFGU/txg8waMHy16ZGZr8sq9i7OsHmRg/NvxXPK9eb42s3AA/Dn8AlIHxI4IyryaozFXxtzvSGomosei49YDJjg8zkiqN7XlEsafON9gYn0gip/wJ6fxoJeauqe/xw7Khd+Poe2yrTO+RVTUqJpB1mKZGlfvLcjijY5Xh2pcr1fkkLzORLN2OOpNaIhsviqP31YZZgJkCkPzG0bvWVv+v7LB4G6XeVbI0/wYQP0hJyuDwYr1yN1y9H1VW+oF7pJ6cNIhjIb6k6QF1ISXk/drREWUTB9DAUWfHv8AjfxeJpnSKyOqkXae5vAupPmUWBRvXwv5JXEy9Dlq5kkTjOWVWNomlIxB3hy27/fPY/IeCBokde0EQjEPvaSG77aW1FkgHkxNzXIpGxRF4P6gjZ1Qn1bowinimTdeyUcxoOfeLntBF/iCYqYn+5uF99dDO6+zn8kResJ0YYFAyQChGpiY9TOlh0iwOabylSYqvoTkUlkHQESM/qjSTgbfATITiZSHKQwAkYpyUvZdSWQ3plwTKVc9UEsnkZkjV/7tOYO9RQPKs3QR1TVZcNNtDc=
