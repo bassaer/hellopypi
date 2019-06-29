@@ -2,7 +2,8 @@
 pypidev
 =========
 
-.. image:: https://img.shields.io/pypi/v/pypidev.svg   :alt: PyPI
+.. image:: https://img.shields.io/pypi/v/pypidev.svg
+    :alt: PyPI
 
 pypidev is a pypi sample
 
