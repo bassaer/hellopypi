@@ -9,7 +9,7 @@ install
 -------
 
 .. code-block:: text
-    pip install hellopypi
+❯ pip install hellopypi
 
 
 -------
@@ -24,9 +24,9 @@ example
 
 
 ---
-CLI
+cli
 ---
 
 .. code-block:: text
-    ❯ hellopypi -n hoge
-    Hello, hoge!
+❯ hellopypi -n hoge
+Hello, hoge!
