@@ -5,6 +5,14 @@ hellopypi
 hellopypi is a pypi sample
 
 -------
+install
+-------
+
+.. code-block:: text
+    pip install hellopypi
+
+
+-------
 example
 -------
 
@@ -20,7 +28,5 @@ CLI
 ---
 
 .. code-block:: text
-❯ hellopypi -n hoge
-Hello, hoge!
-
-
+    ❯ hellopypi -n hoge
+    Hello, hoge!
