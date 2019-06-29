@@ -8,7 +8,8 @@ hellopypi is a pypi sample
 install
 -------
 
-.. code-block:: text
+.. code-block:: sh
+
     ❯ pip install hellopypi
 
 
@@ -17,6 +18,7 @@ example
 -------
 
 .. code-block:: python
+
     >>> from hellopypi import Hello
     >>> hello = Hello("hoge")
     >>> hello.get()
@@ -27,6 +29,7 @@ example
 cli
 ---
 
-.. code-block:: text
+.. code-block:: sh
+
     ❯ hellopypi -n hoge
     Hello, hoge!
