@@ -7,13 +7,13 @@ from setuptools import setup
 with open("README.rst") as f:
     readme = f.read()
 
-with open("src/hellopypi/__init__.py") as f:
+with open("src/pypidev/__init__.py") as f:
     version = re.search(r'__version__ = "(.*?)"', f.read()).group(1)
 
 setup(
-    name="hellopypi",
+    name="pypidev",
     version=version,
-    url="https://github.com/bassaer/hellopypi",
+    url="https://github.com/bassaer/pypidev",
     author="Tsubasa Nakayama",
     author_email="app.nakayama@gmail.com",
     description="A simple pypi sample",
@@ -23,7 +23,7 @@ setup(
     package_dir={"": "src"},
     keywords="hello, pypi",
     python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*',
-    entry_points={"console_scripts": ["hellopypi = hellopypi.cli:main"]},
+    entry_points={"console_scripts": ["pypidev = pypidev.cli:main"]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",

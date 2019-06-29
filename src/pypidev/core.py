@@ -1,4 +1,4 @@
-""" Core hellopypi """
+""" Core pypidev """
 
 class Hello(object):
 

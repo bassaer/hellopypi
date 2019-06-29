@@ -1,8 +1,8 @@
 =========
-hellopypi
+pypidev
 =========
 
-hellopypi is a pypi sample
+pypidev is a pypi sample
 
 -------
 install
@@ -10,7 +10,7 @@ install
 
 .. code-block:: sh
 
-    ❯ pip install hellopypi
+    ❯ pip install pypidev
 
 
 -------
@@ -19,7 +19,7 @@ example
 
 .. code-block:: python
 
-    >>> from hellopypi import Hello
+    >>> from pypidev import Hello
     >>> hello = Hello("hoge")
     >>> hello.get()
     'Hello, hoge!'
@@ -31,5 +31,5 @@ cli
 
 .. code-block:: sh
 
-    ❯ hellopypi -n hoge
+    ❯ pypidev -n hoge
     Hello, hoge!
